@@ -33,8 +33,8 @@ class Arena{
 	// Roound duration (3min)
 	const ROUND_DURATION = 180;
 	
-	const PLAYER_1_OFFSET_X = 5;
-	const PLAYER_2_OFFSET_X = -5;
+	const PLAYER_1_OFFSET_X = 10;
+	const PLAYER_2_OFFSET_X = -10;
 	
 	// Variable for stop the round's timer
 	private $taskHandler;
