@@ -18,7 +18,7 @@ class JoinCommand extends Command implements PluginIdentifiableCommand{
 
 	private $plugin;
 	private $arenaManager;
-	public $commandName = "match";
+	public $commandName = "1vs1";
 
 	public function __construct(OneVsOne $plugin, ArenaManager $arenaManager){
 		parent::__construct($this->commandName, "Join 1vs1 queue !");
